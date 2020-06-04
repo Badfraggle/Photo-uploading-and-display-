@@ -58,7 +58,9 @@
 												?>
 											</td>
 											<td class="resizeImage"> 
-												<?php 												
+												<?php 
+													// typical example of a image address from database "uploads/amimal_images/0_Burmese-python(Python-bivittatus)1590692859.jpg" 
+													// just an address to the folder where the images is
 													$pic = escape($image->image_address);
 
 													$thumb = $pic;
